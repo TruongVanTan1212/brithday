@@ -1,6 +1,6 @@
 const agePopup = document.getElementById("guess-age-popup");
 const ageButtons = document.querySelectorAll(".age-btn");
-const correctAge = "17";
+const correctAge = "23";
 
 setTimeout(() => {
   agePopup.classList.add("show");
@@ -13,7 +13,7 @@ ageButtons.forEach(btn => {
       agePopup.innerHTML = `
         <center><img src="https://i.pinimg.com/736x/47/c2/49/47c2493fecd4a231eddc88b69991cc27.jpg" alt="Congrats" style="width: 140px;"/></center>
         <h2>Giỏi! Trung thực 😎</h2>
-        <p>Hỏi chơi cho zui thôi bà 😏</p>
+        <p>Hỏi chơi cho zui thôi à 😏</p>
         <button class="close-btn" onclick="agePopup.classList.remove('show')">Zui zẻ không quạo</button>
       `;
     } else {
@@ -72,10 +72,11 @@ const musicBtn = document.getElementById("music-btn");
   });
 
   const messages = [
-    "Sinh nhật dui dẻ nha bà, quý lắm mới chúc á nha bà! 💝🎂.",
+    "Sinh nhật dui dẻ nha chị 3, quý lắm mới chúc á nha Chị 3! 💝🎂.",
     "Mong sao tuổi mới bà sẽ mang đến thật nhiều hạnh phúc và sức khỏe dồi dào! 🎉✨.",
-    "Chúc sao cho bà luôn thành công nữa nè, làm gì cũng thuận lợi 🥰🍀.",
-    "Thêm một tuổi mới, chúc sao cho bà luôn dui dẻ bên bạn bè, gia đình và người bà luôn yêu thương 🤗💞.",
+    "Chúc sao cho Chị 3 luôn thành công nữa nè, làm gì cũng thuận lợi 🥰🍀.",
+    "Chúc sao cho Chị 3 sơm tìm được 1 nửa còn thiếu của mình 🥰🍀.",
+    "Thêm một tuổi mới, chúc sao cho chị 3 luôn dui dẻ bên bạn bè, gia đình và người bà luôn yêu thương 🤗💞.",
     "Hãy tận hưởng ngày đặc biệt này với thật nhiều niềm vui và tiếng cười nhé! ❤️🎈"
   ];
   const typingTextElem = document.getElementById("typing-text");
